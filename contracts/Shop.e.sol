@@ -17,7 +17,7 @@ contract ShopExploit is IBuyer {
     IShop public implementation;
 
     /// @notice Constructor called at deployment of contract
-    /// @param _implementation contract address of ethernaut `AlienCodex` challenge
+    /// @param _implementation contract address of ethernaut `Shop` challenge
     /// Note: https://ethernaut.openzeppelin.com/level/0xCb1c7A4Dee224bac0B47d0bE7bb334bac235F842
     constructor(IShop _implementation) {
         implementation = _implementation;
